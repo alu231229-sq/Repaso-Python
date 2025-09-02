@@ -1,0 +1,149 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyO0IOR5jI8qRHOiZuHov/m+",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/alu231229-sq/Repaso-Python/blob/main/3codigosderepaso\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "pqGlJH9o5LwV"
+      },
+      "outputs": [],
+      "source": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "ejercicios en colab con copilot\n",
+        "\n",
+        "1. realiza un programa en python que te pida capturar 2 numeros enteros e imprima la suma, resta, multiplicacion y division de ellos\n",
+        "2. realizar un programa  en python que calcule el total de caracteres de un nombre capturado por teclado\n",
+        "3. realizar un programa en python que permita imprimir los 7 dias de la semana\n"
+      ],
+      "metadata": {
+        "id": "SDQDb_1H5tiG"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num1= float(input(\"Ingresa el primer numero: \"))\n",
+        "num2= float(input(\"Ingresa el segundo numero: \"))\n",
+        "sum =(num1+num2)\n",
+        "res =(num1-num2)\n",
+        "mul =(num1*num2)\n",
+        "div =(num1/num2)\n",
+        "print(\"El resultado de tu suma es= \",sum)\n",
+        "print(\"El resultado de tu resta es= \",res)\n",
+        "print(\"El resultado de tu multiplicacion es= \",mul)\n",
+        "print(\"El resultado de tu division es= \",div)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "r-ZqisSD6grL",
+        "outputId": "7238bd83-01ee-4458-f618-2768921c8176"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Ingresa el primer numero: 10\n",
+            "Ingresa el segundo numero: 5\n",
+            "El resultado de tu suma es=  15.0\n",
+            "El resultado de tu resta es=  5.0\n",
+            "El resultado de tu multiplicacion es=  50.0\n",
+            "El resultado de tu division es=  2.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nombre=input(\"Ingresa el nombre: \")\n",
+        "largo= len(nombre)\n",
+        "print (\"La cantidad de caracteres en tu nombre es de: \",largo,\" caracteres\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "FhNoRV5c8Zuw",
+        "outputId": "6bd66145-f005-4402-fbcf-f53da8f2117c"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Ingresa el nombre: pedro\n",
+            "La cantidad de caracteres en tu nombre es de:  5  caracteres\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "dias= input(\"Ingresa el dia de la semana: \")\n",
+        "print(\"Los dias de la semana son: \"+dias)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "QL3KYsUM9Ml9",
+        "outputId": "744360dc-fda0-4b80-b102-4aed8bf8363d"
+      },
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Ingresa el dia de la semana: lunes, martes, miercoles jueves, viernes\n",
+            "Los dias de la semana son: lunes, martes, miercoles jueves, viernes\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "bsC-IGHf9MkL"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
