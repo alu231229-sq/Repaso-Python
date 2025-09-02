@@ -1,2 +1,3 @@
 # Repaso-Python
 Esto es un repaso de programacion en python
+Python es un lenguaje de programación de alto nivel, interpretado y de propósito general, ampliamente conocido por su sintaxis sencilla y clara. Gracias a su facilidad de aprendizaje y a su gran comunidad, Python se utiliza tanto para el desarrollo de aplicaciones web y de escritorio como para la ciencia de datos, inteligencia artificial, automatización, análisis de datos y muchas otras áreas. Su enfoque en la legibilidad del código y su amplia biblioteca estándar lo convierten en una excelente opción tanto para programadores principiantes como para expertos.
